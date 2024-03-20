@@ -1,3 +1,4 @@
+/* #region globales */
 html {
     box-sizing: border-box;
 }
@@ -7,6 +8,8 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+/* #endregion globales */
 
 /* box-sizing: border-box; */
 /* hace que el padding se ajuste a los 200 px del width y no hace que el componente e general aumente el size */
@@ -18,10 +21,56 @@ Se utiliza cuando el color de fondo es importante en la caja
 /*
 margin de la orilla hacia afuera
 */
-.nombre-sitio {
-    padding-top: 100px;
-    padding-bottom: 100px;
+
+/* #region  Header */
+/* Eliminar la decoración de los links  */
+a {
+    text-decoration: none;
+    color: #000;
 }
+
+.contenedor {
+    max-width: 1200px;
+    /* para centrar hay dos formas 
+    margin: 0 auto;
+    o la nueva
+    */
+    margin-inline: auto;
+}
+
+/* border-color: #000;
+    border-top-style: solid;
+    border-width: 1px; */
+.contenedor-navegacion {
+
+    border-top: 1px solid #e1e1e1;
+
+}
+
+/* Agregar borde en el top */
+.nav-principal {
+
+    /* Se usa como las manecillas del reloj  */
+    padding: 20px 0;
+    display: flex;
+}
+
+.hero {
+    /*  la ubicacion a la imagen es relatva a la carpta de css */
+    background-image: url('../img/principal.jpg');
+    height: 550px;
+    /* Por defect  las imagenes de fondo se repiten */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nombre-sitio {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+/* #endregion  Header */
 
 h1 {
     color: #000;
