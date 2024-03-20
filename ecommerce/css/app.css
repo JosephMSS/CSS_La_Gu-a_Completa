@@ -1,7 +1,30 @@
 h1 {
     color: #000;
+
     span {
         color: #037bc0;
+    }
+}
+
+
+nav {
+
+    a {
+        text-transform: uppercase;
+    }
+}
+
+.navegacion {
+    a {
+        text-transform: lowercase;
+    }
+}
+/* 
+! Es preferible utilizar clases antes que id ya que son mas pesados 
+*/
+#navegacion {
+    a {
+        text-transform: capitalize;
     }
 }
 
