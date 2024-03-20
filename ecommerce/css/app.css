@@ -1,3 +1,28 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* box-sizing: border-box; */
+/* hace que el padding se ajuste a los 200 px del width y no hace que el componente e general aumente el size */
+/* contend-box  hace que se sume el contenido, el width  y el padding; */
+/* 
+El padding crea una distancia entre el contenido y las orillas 
+Se utiliza cuando el color de fondo es importante en la caja
+*/
+/*
+margin de la orilla hacia afuera
+*/
+.nombre-sitio {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 h1 {
     color: #000;
 
@@ -6,34 +31,17 @@ h1 {
     }
 }
 
+/* box model */
+.sobre-nosotros {
+    background-color: red;
+    width: 200px;
+    padding: 25px;
 
-nav {
 
-    a {
-        text-transform: uppercase;
-    }
 }
 
-.navegacion {
-    a {
-        text-transform: lowercase;
-    }
+.sobre-empresa {
+    background-color: blue;
+    width: 500px;
+    padding: 100px;
 }
-/* 
-! Es preferible utilizar clases antes que id ya que son mas pesados 
-*/
-#navegacion {
-    a {
-        text-transform: capitalize;
-    }
-}
-
-/* 
-* antes del css nesting 
-h1 {
-    color: #000;
-    
-}
-h1 span {
-    color: #037bc0;
-} */

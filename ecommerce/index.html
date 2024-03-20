@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-commerce</title>
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/app.css" />
   </head>
   <body>
     <header>
-      <h1>Tienda <span>Muebles</span></h1>
+      <h1 class="nombre-sitio">Tienda <span>Muebles</span></h1>
     </header>
     <nav class="navbar">
       <a href="index.html">Inicio</a>
@@ -34,7 +35,19 @@
         <a href="#">Cocina</a>
       </div>
     </section>
-    <section>
+    <section class="sobre-nosotros">
+      <!--  div in this case is used to help us to style the content -->
+      <div>
+        <h2>Sobre Nosotros</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
+          accusamus porro. Explicabo, molestiae reprehenderit. Ex similique odit
+          dolorem aperiam praesentium modi libero perferendis. Aut ipsum ex
+          dolores aliquid voluptate minus.
+        </p>
+      </div>
+    </section>
+    <section class="sobre-empresa">
       <!--  div in this case is used to help us to style the content -->
       <div>
         <h2>Sobre Nosotros</h2>
@@ -155,7 +168,7 @@
       -->
       <div>
         <h3>Categorías</h3>
-        <nav id="navegacion">
+        <nav class="navegacion">
           <a href="#">Cocina</a>
           <a href="#">Oficina</a>
           <a href="#">Jardín</a>
