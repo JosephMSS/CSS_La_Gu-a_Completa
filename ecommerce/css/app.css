@@ -9,6 +9,30 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
 /* #endregion globales */
 
 /* box-sizing: border-box; */
@@ -53,6 +77,8 @@ a {
     /* Se usa como las manecillas del reloj  */
     padding: 20px 0;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hero {
@@ -94,3 +120,35 @@ h1 {
     width: 500px;
     padding: 100px;
 }
+
+.categorias {
+    h2 {
+        text-align: center;
+    }
+}
+
+
+
+/* #region Listado categorías */
+.listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.categoria {
+    a {
+        display: block;
+        text-align: center;
+        padding: 20px;
+        border-bottom-right-radius: 20px;
+        font-size: 20px;
+    }
+
+    a:hover {
+        background-color: #037bc0;
+        color: #e1e1e1;
+    }
+}
+
+/* #endregion Listado categorías */
