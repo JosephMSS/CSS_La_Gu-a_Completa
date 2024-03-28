@@ -12,7 +12,7 @@ html {
 }
 
 *,
-    *:before,
+*:before,
 *:after {
     box-sizing: inherit;
 }
@@ -132,21 +132,11 @@ h1 {
     }
 }
 
-/* box model */
-.sobre-nosotros {
-    background-color: red;
-    width: 20rem;
-    padding: 2.5rem;
-}
 
-.sobre-empresa {
-    background-color: blue;
-    width: 50rem;
-    padding: 5rem;
-}
 
 .categorias {
     padding-top: 5rem;
+
     h2 {
         text-align: center;
     }
@@ -177,3 +167,20 @@ h1 {
 }
 
 /* #endregion Listado categorías */
+/* #region Sobre nosotros */
+/* box model */
+.sobre-nosotros {
+    background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%), url('../img/nosotros.jpg');
+    padding: 10rem 0;
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+    background-position: left center;
+}
+
+.sobre-empresa {
+    background-color: blue;
+    width: 50rem;
+    padding: 5rem;
+}
+
+/* #endregion Sobre nosotros */
