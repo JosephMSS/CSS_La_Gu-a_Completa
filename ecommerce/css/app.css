@@ -79,6 +79,14 @@ a {
     color: #000;
 }
 
+/* #region utilidades */
+.text-center {
+    text-align: center;
+}
+
+/* #endregion utilidades */
+
+
 .contenedor {
     max-width: 120rem;
     /* para centrar hay dos formas 
@@ -136,10 +144,6 @@ h1 {
 
 .categorias {
     padding-top: 5rem;
-
-    h2 {
-        text-align: center;
-    }
 }
 
 
@@ -206,3 +210,36 @@ h1 {
 }
 
 /* #endregion Sobre nosotros */
+/* #region Productos */
+.contenido-principal {
+    padding-top: 5rem;
+}
+
+.producto {
+    background-color: #037bc0;
+}
+
+.texto-producto {
+    text-align: center;
+    color: #e1e1e1;
+
+    p {
+        margin: 0;
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+    a {}
+
+    .precio {
+        font-size: 2.8rem;
+        color: #e1e1e1;
+        font-weight: 900;
+    }
+}
+
+
+
+/* #endregion Productos */
