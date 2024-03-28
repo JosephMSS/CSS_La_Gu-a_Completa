@@ -177,6 +177,28 @@ h1 {
     background-position: left center;
 }
 
+/* 
+* Se usa flexbox para posicionar contenido dentro de un contenedor
+* Se usa grid para posicionar contenedores
+*/
+.sobre-nosotros-grid {
+    display: flex;
+    justify-content: flex-end;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     
+    usualmente no se usa padding en grid solo se usa gap
+    
+    gap: 4rem; */
+}
+
+.texto-nosotros {
+    flex-basis: 50%;
+    padding-left: 10rem;
+    color: #e1e1e1;
+    /* grid-column: 2/3; */
+}
+
 .sobre-empresa {
     background-color: blue;
     width: 50rem;
