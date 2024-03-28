@@ -6,6 +6,15 @@
     background-repeat: no-repeat;
     background-size: 100%, 120rem;
     background-position: left center;
+    
+}
+.sobre-nosotros-contenedor {
+    max-width: 230rem;
+    /* para centrar hay dos formas 
+    margin: 0 auto;
+    o la nueva
+    */
+    margin-inline: auto;
 }
 
 /* 
