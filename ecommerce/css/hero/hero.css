@@ -1,0 +1,9 @@
+.hero {
+    /*  la ubicacion a la imagen es relativa a la carpta de css */
+    background-image: url('../../img/principal.jpg');
+    height: 55rem;
+    /* Por defect  las imagenes de fondo se repiten */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

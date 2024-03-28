@@ -1,0 +1,27 @@
+.categorias {
+    padding-top: 5rem;
+}
+
+/* #region Listado categorías */
+.listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.categoria {
+    a {
+        display: block;
+        text-align: center;
+        padding: 2rem;
+        border-bottom-right-radius: 1rem;
+        font-size: 2rem;
+    }
+
+    a:hover {
+        background-color: #037bc0;
+        color: #e1e1e1;
+    }
+}
+
+/* #endregion Listado categorías */

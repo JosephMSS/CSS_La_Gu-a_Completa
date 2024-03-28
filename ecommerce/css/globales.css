@@ -1,0 +1,80 @@
+/* #region globales */
+html {
+    /* 
+    Cuando agregamos padding o margin a un elemento, el tamaño de este se incrementa
+    */
+    box-sizing: border-box;
+    /* 
+    Equivale a 1 rem equivale a 10px
+    */
+    font-size: 62.5%;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+    /* 
+    interlineado entre el texto */
+    line-height: 2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0 0 5rem 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* #endregion globales */
+
+/* box-sizing: border-box; */
+/* hace que el padding se ajuste a los 200 px del width y no hace que el componente e general aumente el size */
+/* contend-box  hace que se sume el contenido, el width  y el padding; */
+/* 
+El padding crea una distancia entre el contenido y las orillas 
+Se utiliza cuando el color de fondo es importante en la caja
+*/
+/*
+margin de la orilla hacia afuera
+*/
+
+/* #region  Header */
+/* Eliminar la decoración de los links  */
+a {
+    text-decoration: none;
+    color: #000;
+}

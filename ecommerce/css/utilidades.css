@@ -1,0 +1,32 @@
+/* #region utilidades */
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    background-color: #8cbc00;
+    display: block;
+    color: #e1e1e1;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    transition: background-color .3s ease-out;
+
+
+}
+
+.btn:hover {
+    background-color: #769c02;
+
+}
+
+.contenedor {
+    max-width: 120rem;
+    /* para centrar hay dos formas 
+    margin: 0 auto;
+    o la nueva
+    */
+    margin-inline: auto;
+}
+
+/* #endregion utilidades */
