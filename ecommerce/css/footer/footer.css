@@ -1,0 +1,28 @@
+.side-footer {
+    margin-top: 5rem;
+    padding-top: 5rem;
+    border-top: .1rem solid #e1e1e1;
+}
+
+.grid-footer {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+    h3 {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    .footer-menu {
+        a {
+            display: block
+        }
+    }
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 5rem;
+}
